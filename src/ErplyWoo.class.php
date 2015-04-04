@@ -19,9 +19,9 @@ class ErplyWoo {
 	*/
 	function __construct() {
 		$api = new EAPI();				
-		$api->clientCode =  "310969";                        		    //"101896";	//
-		$api->username =   "khalid.rahmani.mail@gmail.com"; 			// "haitham"; //
-		$api->password =   "sky1111ey";                     			//"reset123"; // 
+		$api->clientCode =  "";
+		$api->username =   "";
+		$api->password =   "";
 		$api->url = "https://".$api->clientCode.".erply.com/api/";
 		$this->Eapi = $api;		
 	}
